@@ -2,7 +2,8 @@ body {
  background-color:#FF5500
 }
 h1{
- color:#681411
+ color:#681411;
+ font-family: 'Georgia', serif;
 }
 label{
  color:#681411
