@@ -1,13 +1,20 @@
 body {
  background-color:blue;
 }
+
 h1{
  color:#681411;
  font-family: 'Georgia', serif;
 }
+
 label{
  color:#681411
 }
+
 input{
  color:#681411
+}
+
+.rotulos{
+  font-size: 10px; 
 }
