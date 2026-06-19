@@ -1,5 +1,5 @@
 body {
- background-color:blue;
+ background-color:#4F4F4F;
 }
 
 h1{
@@ -8,7 +8,7 @@ h1{
 }
 
 label{
- color:#681411
+ color:#FFFFFF
 }
 
 input{
@@ -16,5 +16,5 @@ input{
 }
 
 .rotulos{
-  font-size: 10px; 
+  font-size: 20px; 
 }
