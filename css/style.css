@@ -19,7 +19,7 @@ input{
   font-size: 20px; 
 }
 
-#btnAgendar{
+.btnAgendar{
     border: 2px solid #007bff; /* Espessura: 2px, Estilo: sólido, Cor: azul */
     border-radius: 8px; /* Cantos arredondados */
 }
