@@ -24,12 +24,13 @@
 		<p><a href="https://wayground.com/join/game/U2FsdGVkX19vxQalDWdzr4Z3xP26USDEf0DbSxnude0u7Pe3QUzHzrZQWf%252B8ahhSoPFRyY2sHIn2h1zb%252F%252Ft2mQ%253D%253D?page=nps&page=summary">1 atividade</a></p>
 		<p><a href="https://docs.google.com/forms/d/e/1FAIpQLSfnGh9VDL1a0CxTwYOaWB-HTptSWnk0l3dGgVPWnPuunk6b9Q/viewscore?viewscore=AE0zAgBvHJXsftbzbOUIQEWpEecfIfoDvpU_PN6Ejlq5_J_lTKuyz9c2pN9ImsUa-w">2 atividade</a></p>
 		<p><a href="https://wayground.com/join/game/U2FsdGVkX19uWaEiTNbrM0s41FEyPHPPKomimO4%252BsT9Maku3ITt1E2rVcsXwRPONPwdpCtfF2e7sgp1d60%252B5lw%253D%253D?page=summary">3 atividade</a></p>
-		<h2>Digite seu nome: <input></h2>
-		<h2>Digite seu email: <input></h2>
-		<h2>Digite sua data de nascimento: <input></h2>
-		<h2>Digite sua matricula: <input></h2>
-		<h2>Digite seu genero: <input type="text" name="digite seu genero" minlenght="3" required></h2>
-		<button type="submit" name="termos de uso" value="sim"Aceito os termos de uso</button>
+		<form action="/enviar-dados" method="POST">
+			<h2>Digite seu nome: <input type="text" name="nome" minlength="3" required></h2>
+			<h2>Digite seu email: <input type="email" name="email" required></h2>
+		<h2>Digite sua data de nascimento: <input type="date" name="data de nascimento" required></h2>
+			<h2>Digite sua matricula: <input type="text" name="matricula" minlength="3" required></h2>
+			<h2>Digite seu genero: <input type="text" name="genero" minlength="3" required></h2>
+			<button type="submit" name="termos de uso" value="sim"Aceito os termos de uso</button>
 		<table>
 			<tr>
 				<th>Horário</th>
